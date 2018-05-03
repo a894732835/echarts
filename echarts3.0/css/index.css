@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+
+.top {
+	width: 1110px;
+	min-width: 1110px;
+	margin: 0 auto;
+	text-align: center;
+	border-bottom: 2px solid #ddd;
+}	
+.title-top {
+	padding: 0 10px;
+	border-bottom: 2px solid #e6e6e6;
+}
+	.title-top p {
+		font-size: 18px;
+		margin: 5px 0;
+		color: #1b2133;
+		text-align: left;
+	}
+	.title-top span{
+		display: block;
+		font-size: 16px;
+		margin:5px;
+		color: #333;
+	}
+.title-sum {
+	font-size: 18px;
+	margin: 5px 0 10px 0;
+}
+
+.pad-top {
+	padding-top: 105px;
+}
+.left-box {
+	width: 28%;
+	float: left;
+}
+.right-box {
+	width: 18%;
+	float: left;
+	color: #fff;
+}
+.box {
+	margin: 10px;
+	background-color: #d9544f;
+	border-radius: 5px;
+/*	border: 2px solid #ddd;*/
+}
+	.box img{
+		width: 85px;
+		height: 60px;
+		float: left;
+	}
+	.box>p>span {
+		font-size: 15px;
+		color: rgba(255, 255, 255, 0.8);
+	}
+.title-tip {
+	font-size: 24px;
+	display: inline-block;
+	float: left;
+	margin: 15px 0px 0 20px;
+}
+.box-two{
+	background-color: #418bca;
+}
+.box-three{
+	background-color: #16a085;
+}
+.box-four{
+	background-color: #3f4e62;
+	/*background: -webkit-linear-gradient(left,rgba(0,0,0,1),rgba(0,0,0,0.1)); 
+    background: -o-linear-gradient(right,rgba(0,0,0,1),rgba(0,0,0,0.1));  
+    background: -moz-linear-gradient(right,rgba(0,0,0,1),rgba(0,0,0,0.1));
+    background: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0.1));  */
+}
+.left-box-container>p{
+	margin: 10px 0 0 15px;
+	text-align: left;
+	font-size: 20px;
+}
+.box-left-left{
+	width: 45%;
+	margin: 10px 16px;
+	border-right: 2px solid #000;
+	font-size: 22px;
+	font-weight: 600;
+}
+	.box-left-left>p{
+		margin: 10px;
+	}
+	.box-left-left img{
+		margin: 5px 0px -5px -8px;
+	}
+.box-left-right{
+	width: 40%;
+/*	border: 2px solid #000;*/
+	font-size: 22px;
+	font-weight: 600;
+}
+	.box-left-right>p{
+			margin: 15px 0 0 0;
+
+		}
+.box-one>p,.box-four>p{
+	font-size: 20px;
+	margin: 0;
+	padding:0 0 5px 15px;
+	text-align: left;
+	clear: both;
+}
+.box-two>p,.box-three>p {
+	font-size: 24px;
+	margin: 0;
+	padding:1px 0 13px 10px;
+	clear: both;
+	text-align: left;
+}
+	.box-two>p>small,.box-three>p>small{
+		font-size: 14px;
+	    font-weight: 400;
+	    color: rgba(255, 255, 255, 0.5);
+
+	}
+/*.box-four>p{
+	font-size: 22px;
+	margin: 0;
+	padding: 34px 0 0 0;
+}*/
+.box-four>p:nth-child(2){
+	padding-bottom: 36px;
+}
+#beizhu1,#beizhu2,#beizhu3,#beizhu4 {
+	display: none;
+}
+.pad-left{
+	padding-left: 45px;
+}

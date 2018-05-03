@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+		<link rel="stylesheet" type="text/css" href="css/public.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+		<title>index</title>
+	</head>
+
+	<body>
+		<div class="top ove">
+			<div class="title-top ove">
+			<p class="left">//</p>
+			<span class="right">2018-1-18</span>
+			</div>
+			<ul>
+				<li class="left-box">
+					<div class="left-box-container">
+						<p>满意度评分:</p>
+						<div class="box-left-left left">
+							<img src="img/fivestar.png" />
+							<p>4.8</p>
+						</div>
+						<div class="box-left-right left">
+							<p>投诉:&nbsp;2</p>
+							<p>表扬:&nbsp;3</p>
+						</div>
+					</div>
+				</li>
+				<li class="right-box">
+					<div class="box box-one">
+						<img class="icon-one" src="img/icon3.png" />
+						<img id="beizhu1" src="img/icon6.png" />
+						<span class="title-tip">事件</span>
+						<p>2387<span>个</span></p>
+						<p>396278<span>小时</span></p>
+					</div>
+				</li>
+				<li class="right-box">
+					<div class="box box-two">
+						<img class="icon-two" src="img/icon5.png">
+						<img id="beizhu2" src="img/icon4.png" />
+						<span class="title-tip">变更</span>
+						<p><small>变更总数&nbsp;:</small><br />38<span>次</span></p>
+					</div>
+				</li>
+				<li class="right-box">
+					<div class="box box-three">
+						<img class="icon-three" src="img/icon1.png">
+						<img id="beizhu3" src="img/icon2.png" />
+						<span class="title-tip">配置</span>
+						<p><small>配置总数&nbsp;:</small><br />687<span>台</span></p>
+					</div>
+				</li>
+				<li class="right-box">
+					<div class="box box-four">
+						<img class="icon-four" src="img/icon8.png" />
+						<img id="beizhu4" src="img/icon7.png" />
+						<span class="title-tip">工程师</span>
+						<p><span>内部服务</span>：3<span>人</span></p>
+						<p><span>外部服务</span>：2<span>人次</span></p>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="main clearFix">
+			<div class="row">
+				<div class="col-6 center">
+				<!-- 各月份服务事件公司内外情况 -->
+					<div class="right">
+						<div class="echart300 pad-top loadtestone"><img src="img/loadtest.gif" /></div>
+						<div id="InsideOutsideSituationDiv" class="echartsize"></div>
+						<ul>
+							<li id="sumone" class="col-6 title-sum">&bull;合同内：879</li>
+							<li id="sumtwo" class="col-6 title-sum">&bull;合同外：27</li>
+							<li><div class="spacer10 col-12"></div></li>
+							<li><div class="spacer10 col-12"></div></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-6 center">
+				<!-- 各月份服务事件状态情况 -->
+					<div class="left">
+						<div class="echart300 pad-top loadtesttwo"><img src="img/loadtest.gif" /></div>
+						<div id="StateSituationDiv" class="echartsize"></div>
+						<ul>
+							<li id="sumthree" class="col-4 title-sum">&bull;处理中：38</li>
+							<li id="sumfour" class="col-4 title-sum">&bull;已解决：872</li>
+							<li id="sumfive" class="col-4 title-sum">&bull;已关闭：3372</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- <div class="row">
+				<div class="col-6 center">
+				 各月份服务事件紧急程度情况分布 
+					<div class="right">
+						<div id="EmergencyDegreeSituationDiv" class="echartsize"></div>
+					</div>
+				</div>
+				<div class="col-6 center">
+				 各月份服务事件影响程度情况分布 
+					<div class="left">
+						<div id="InfluenceDegreeSituationDiv" class="echartsize"></div>
+					</div>
+				</div>
+			</div> -->
+			<div class="row">
+				<div class="col-6 center">
+				<!-- 事件来源分析 -->
+					<div class="right">
+						<div class="echart300 pad-top loadtestthree"><img src="img/loadtest.gif" /></div>
+						<div id="EventSourceDiv" class="echartsize"></div>
+					</div>
+				</div>
+				<div class="col-6 center">
+				<!-- 事件性质分析 -->
+					<div class="left">
+						<div class="echart300 pad-top loadtestfour"><img src="img/loadtest.gif" /></div>
+						<div id="EventNatureDiv" class="echartsize"></div>
+					</div>
+				</div>
+			</div>
+			<div class="row ove">
+				<div class="col-6 center">
+				<!-- 各月份配置变更情况 -->
+					<div class="right">
+						<div class="echart300 pad-top loadtestfive"><img src="img/loadtest.gif" /></div>
+						<div id="ConfigureChangeSituationDiv" class="echartsize"></div>
+						<ul class="pad-left">
+							<li id="sumten" class="col-1 title-sum t-left"></li>
+							<li id="sumsix" class="col-4 title-sum t-left">&bull;变更总数：3879次</li>
+							<li id="sumseven" class="col-4 title-sum t-left">&bull;已解决：3379台</li>
+							<li id="sumeight" class="col-4 title-sum t-left">&bull;新增：234</li>
+							<li id="sumnine" class="col-4 title-sum t-left">&bull;维修：345</li>
+							<li id="sumten" class="col-4 title-sum t-left">&bull;卸载：456</li>
+							
+						</ul>
+					</div>
+				</div>
+				<div class="col-6 center">
+				<!-- 各月份事件优先级情况 -->
+					<div class="left">
+						<div class="echart300 pad-top loadtestsix"><img src="img/loadtest.gif" /></div>
+						<div id="EventPrioritySituationDiv" class="echartsize"></div>
+						<ul>
+							<li id="sumeleven" class="col-3 title-sum">&bull;P1级：338</li>
+							<li id="sumtwelve" class="col-3 title-sum">&bull;P2级：82</li>
+							<li id="sumthirtee" class="col-3 title-sum">&bull;P3级：372</li>
+							<li id="sumfourteen" class="col-3 title-sum">&bull;P4级：348</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/echarts.js"></script>
+		<script type="text/javascript" src="js/public.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+<!-- 		<script type="text/javascript" src="js/publicReport.js"></script>
+ -->	</body>
+</html>
